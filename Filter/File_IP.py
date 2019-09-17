@@ -10,7 +10,6 @@ from colorama import init, Fore
 
 # 获取日志文件路径
 file = sys.argv[1]
-# file = "C:\\Users\\chengziyang\\Desktop\\access.log"
 # autoreset参数为True时只对当前输出起作用，输出完成后颜色恢复默认设置
 init(autoreset=True)
 print(Fore.GREEN + ">>>>>>>>>>>>>>>>>>>>>开始分析<<<<<<<<<<<<<<<<<<<<<<", "\n")
